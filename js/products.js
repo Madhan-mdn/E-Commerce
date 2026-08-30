@@ -18,15 +18,15 @@ async function getProducts(){
         image.setAttribute("src", product.image);
         image.setAttribute("alt",  product.title);
 
-        let title = document.createElement("h3");
+        let title = document.createElement("h1");
         title.classList.add("product-title");
-        let truncatedTitle = product.title.slice(0, 10) + "....";
-        title.textContent = product.title.length > 10 ? truncatedTitle : product.title;
+        let truncatedTitle = product.title.slice(0, 15) + "....";
+        title.textContent = product.title.length > 15 ? truncatedTitle : product.title;
         
         let desc = document.createElement("p");
         desc.classList.add("product-desc");
-        let truncatedDesc = product.description.slice(0, 50) + "....";
-        desc.textContent = product.description.length > 50 ? truncatedDesc : product.description;
+        let truncatedDesc = product.description.slice(0, 80) + "....";
+        desc.textContent = product.description.length > 80 ? truncatedDesc : product.description;
 
         let price = document.createElement("p");
         price.classList.add("product-price");
