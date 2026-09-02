@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="sticky top-0 left-0 w-full  bg-white z-50 py-[30px]">
+            <div class="h-full flex items-center justify-between px-[100px]">
+                <span class="font-bold text-[24px]">Ecommerce</span>
+                <nav class="hidden md:flex items-center gap-[25px]">
+                    <a href="index.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Home</a>
+                    <a href="products.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Products</a>
+                    <a href="about.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">About</a>
+                    <a href="contact.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Contact</a>
+                </nav>
+                <div class="flex items-center gap-[15px]">
+                    <a href="login.html" class="p-2 border-2 border-gray-600 rounded-lg text-[14px] hover:text-white hover:bg-gray-700 transition-colors duration-300"><i class="fa-solid fa-right-to-bracket mr-2"></i>Login</a>
+                    <a href="register.html" class="p-2 border-2 border-gray-600 rounded-lg text-[14px] hover:text-white hover:bg-gray-700 transition-colors duration-300"><i class=" fa-solid fa-user-plus mr-2"></i>Register</a>
+                    <a href="cart.html" class="p-2 border-2 border-gray-600 rounded-lg text-[14px] hover:text-white hover:bg-gray-700 transition-colors duration-300 active"><i class=" fa-solid fa-cart-shopping mr-2"></i>Cart (<span id="cart-count">0</span>)</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="w-[85%] mx-auto">
+            <section>
+                <h1 class="text-[40px] text-center font-bold-500">Cart</h1>
+                <hr class="text-gray-300 my-[10px]">
+            </section>
+
+            <section id="item-div" class=" p-[40px] "></section>
+
+            <p class="text-center text-[20px] my-[40px]">Made with <i class="fa-solid fa-heart" style="color: red;"></i> by <u>Madhan</u></p>
+
+        </main>
+        
+        <script src="js/cart.js"></script>
+       
+</body>
+</html>
