@@ -16,9 +16,9 @@
             <div class="h-full flex items-center justify-between px-[20px] md:px-[50px] lg:px-[100px]">
                 <span class="font-bold text-[20px] md:text-[24px]">Ecommerce</span>
                 <nav class="hidden lg:flex items-center gap-[25px]">
-                    <a href="index.html" class="text-[16px] text-black">Home</a>
+                    <a href="index.html" class="text-[16px]  text-gray-500 hover:text-black transition-colors duration-300">Home</a>
                     <a href="products.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Products</a>
-                    <a href="about.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">About</a>
+                    <a href="about.html" class="text-[16px] text-black">About</a>
                     <a href="contact.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Contact</a>
                 </nav>
 
@@ -30,14 +30,14 @@
                 <button id="menuBtn" class="lg:hidden text-[24px] cursor-pointer"><i class="fa-solid fa-bars"></i></button>
             </div>
 
-            <div id="mobileMenu"     class="fixed top-0 right-[-280px] h-screen w-[280px] bg-white z-[100] translate-all duration-300 ease-in-out lg:hidden shadow-lg">
+            <div id="mobileMenu" class="fixed top-0 right-[-280px] h-screen w-[280px] bg-white z-[100] transition-all duration-300 ease-in-out lg:hidden shadow-lg">
                 <button id="closeMenuBtn" class="absolute top-[20px] right-[20px] text-[24px] cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
 
                 <div class="flex flex-col items-center gap-[30px] pt-[80px]">
                     <nav class="flex flex-col items-center gap-[25px]"> 
-                        <a href="index.html" class="text-[16px] text-black">Home</a>
+                        <a href="index.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Home</a>
                         <a href="products.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Products</a>
-                        <a href="about.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">About</a>
+                        <a href="about.html" class="text-[16px] text-black">About</a>
                         <a href="contact.html" class="text-[16px] text-gray-500 hover:text-black transition-colors duration-300">Contact</a>
                     </nav>
                     <div class="flex flex-col items-center gap-[10px] pb-[20px]">
@@ -49,13 +49,13 @@
             </div>
       </header> 
 
-    <main class="px-[40px]">
-      <h1 class="text-[40px] text-center mt-[35px] pb-[15px]">About Us</h1>
+    <main class="px-[15px] md:px-[25px] lg:px-[40px]">
+      <h1 class="text-[28px] md:text-[35px] lg:text-[40px] text-center mt-[25px] md:mt-[35px] pb-[15px]">About Us</h1>
       <hr class="w-[95%] mx-auto text-gray-300 my-[10px]" />
 
       <section>
         <div >
-          <p class="px-[40px] text-center text-gray-600 text-[18px]/7">
+          <p class="px-[5px] md:px-[30px] lg:px-[40px] text-center text-gray-600 text-[14px] md:text-[16px] lg:text-[18px]/5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit at
             optio sunt aliquam deserunt ipsum earum nam pariatur veritatis
             inventore, aspernatur saepe, itaque, repudiandae magnam quasi
@@ -84,32 +84,30 @@
         </div>
 
         <div>
-            <h1 class="text-[30px] text-center mt-[35px] pb-[15px]">Our Products</h1>
-            <div class="flex w-full justify-between">
-               <div class="w-[24%] border border-gray-600 h-full rounded-[10px] overflow-hidden">
-                    <img src="images/pexels-photo-298863.jpeg" alt="Men's Clothing " class="w-full h-full">
-                    <h3 class="text-center text-[22px] p-[20px] font-bold">Men's Clothing</h3>
+            <h1 class="text-[24px] md:text-[28px] lg:text-[30px] text-center mt-[30px] md:mt-[35px] pb-[15px]">Our Products</h1>
+            <div class="flex flex-wrap w-full justify-center gap-[15px] md:gap-[20px]">
+               <div class="w-full sm:w-[47%] lg:w-[23%] border border-gray-600 rounded-[10px] overflow-hidden">
+                    <img src="images/pexels-photo-298863.jpeg" alt="Men's Clothing " class="w-full h-[220px] md:h-[250px] object-cover">
+                    <h3 class="text-center text-[18px] md:text-[20px] lg:text-[22px] p-[15px] md:p-[20px] font-bold">Men's Clothing</h3>
                 </div>
-               <div class="w-[24%] border border-gray-600 h-full rounded-[10px] overflow-hidden">
-                    <img src="images/pexels-photo-7679720.jpeg" alt="Women's Clothing" class="w-full h-full">
-                    <h3 class="text-center text-[22px] p-[20px] font-bold">Women's Clothing</h3>
+               <div class="w-full sm:w-[47%] lg:w-[23%] border border-gray-600 rounded-[10px] overflow-hidden">
+                    <img src="images/pexels-photo-7679720.jpeg" alt="Women's Clothing" class="w-full h-[220px] md:h-[250px] object-cover">
+                    <h3 class="text-center text-[18px] md:text-[20px] lg:text-[22px] p-[15px] md:p-[20px] font-bold">Women's Clothing</h3>
                 </div>
-               <div class="w-[24%] border border-gray-600 h-full rounded-[10px] overflow-hidden">
-                    <img src="images/pexels-photo-1927259.webp" alt="Jewellery" class="w-full h-full">
-                    <h3 class="text-center text-[22px] p-[20px] font-bold">Jewelery</h3>
+               <div class="w-full sm:w-[47%] lg:w-[23%] border border-gray-600 rounded-[10px] overflow-hidden">
+                    <img src="images/pexels-photo-1927259.webp" alt="Jewellery" class="w-full h-[220px] md:h-[250px] object-cover">
+                    <h3 class="text-center text-[18px] md:text-[20px] lg:text-[22px] p-[15px] md:p-[20px] font-bold">Jewelery</h3>
                 </div>
-               <div class="w-[24%] border border-gray-600 h-full rounded-[10px] overflow-hidden">
-                    <img src="images/pexels-photo-356056.jpeg" alt="Electronics" class="w-full h-full">
-                    <h3 class="text-center text-[22px] p-[20px] font-bold">Electronics</h3>
-                </div>
-               
-            </div>
-            
+               <div class="w-full sm:w-[47%] lg:w-[23%] border border-gray-600 rounded-[10px] overflow-hidden">
+                    <img src="images/pexels-photo-356056.jpeg" alt="Electronics" class="w-full h-[220px] md:h-[250px] object-cover">
+                    <h3 class="text-center text-[18px] md:text-[20px] lg:text-[22px] p-[15px] md:p-[20px] font-bold">Electronics</h3>
+               </div>     
+            </div>    
         </div>
       </section>
     </main>
 
-    <p class="text-center text-[20px] my-[40px]">
+    <p class="text-center text-[16px] md:text-[18px] lg:text-[20px] my-[25px] md:my-[40px]">
       Made with <i class="fa-solid fa-heart" style="color: red"></i> by
       <u>Madhan</u>
     </p>
