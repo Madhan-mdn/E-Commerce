@@ -61,6 +61,39 @@
     color: white;
 }
 
+
+@media (max-width: 900px) {
+
+    .product-card {
+        width: 47%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .product-card {
+        width: 100%;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+
+    .product-title {
+        font-size: 18px;
+    }
+
+    .product-desc {
+        font-size: 14px;
+    }
+
+    .product-price {
+        font-size: 18px;
+    }
+
+}
+
 .cart-section {
     display: flex;
     gap: 25px;
