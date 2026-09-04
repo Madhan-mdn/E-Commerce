@@ -222,3 +222,73 @@
 .checkout-button:hover {
     background-color: #374151;
 }
+
+@media (max-width: 900px) {
+
+    .cart-section {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .items-container,
+    .summary-div {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .cart-section {
+        gap: 20px;
+        margin-top: 25px;
+    }
+
+    .cart-heading {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .cart-item {
+        gap: 15px;
+        padding: 15px;
+        min-height: auto;
+        flex-wrap: wrap;
+    }
+
+    .cart-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .cart-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cart-right {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .quantity-div {
+        width: 120px;
+    }
+
+    .cart-price {
+        font-size: 14px;
+    }
+
+    .summary-content {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .checkout-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+}

@@ -23,8 +23,8 @@ function displayCart() {
 
   if (cart.length === 0) {
     itemDiv.innerHTML = `
-            <div class="bg-gray-100 h-[240px] flex flex-col justify-center items-center">
-                <h1 class="text-[50px] font-light">Your Cart is Empty</h1>
+            <div class="bg-gray-100 min-h-[240px] px-[15px] flex flex-col justify-center items-center">
+                <h1 class="text-[28px] md:text-[40px] lg:text-[50px] text-center font-light">Your Cart is Empty</h1>
 
                 <a href="index.html"
                 class="border border-gray-600 px-[12px] py-[8px] rounded-[10px] mt-[20px] hover:bg-gray-700 hover:text-white transition">
